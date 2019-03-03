@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		AC265F6A221C7A3400007DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC265F69221C7A3400007DB7 /* AppDelegate.swift */; };
-		AC265F6C221C7A3400007DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC265F6B221C7A3400007DB7 /* ViewController.swift */; };
+		AC265F6C221C7A3400007DB7 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC265F6B221C7A3400007DB7 /* FoodViewController.swift */; };
 		AC265F6F221C7A3400007DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC265F6D221C7A3400007DB7 /* Main.storyboard */; };
 		AC265F71221C7A3600007DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC265F70221C7A3600007DB7 /* Assets.xcassets */; };
 		AC265F74221C7A3600007DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC265F72221C7A3600007DB7 /* LaunchScreen.storyboard */; };
 		AC265F7C221C7C8E00007DB7 /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC265F7B221C7C8E00007DB7 /* GalleryCollectionView.swift */; };
 		AC265F7E221C7CBB00007DB7 /* SushiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC265F7D221C7CBB00007DB7 /* SushiModel.swift */; };
 		AC265F80221C7EA300007DB7 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC265F7F221C7EA300007DB7 /* GalleryCollectionViewCell.swift */; };
+		ACAED545222BAFE900F5422D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAED544222BAFE900F5422D /* MenuViewController.swift */; };
+		ACAED547222BAFF700F5422D /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAED546222BAFF700F5422D /* ContainerViewController.swift */; };
+		ACAED54C222BBB1800F5422D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAED54B222BBB1800F5422D /* MenuTableViewCell.swift */; };
+		ACAED54E222BC31E00F5422D /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAED54D222BC31E00F5422D /* MenuModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC265F66221C7A3400007DB7 /* UICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC265F69221C7A3400007DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC265F6B221C7A3400007DB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC265F6B221C7A3400007DB7 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		AC265F6E221C7A3400007DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC265F70221C7A3600007DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC265F73221C7A3600007DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -28,6 +32,10 @@
 		AC265F7B221C7C8E00007DB7 /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
 		AC265F7D221C7CBB00007DB7 /* SushiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiModel.swift; sourceTree = "<group>"; };
 		AC265F7F221C7EA300007DB7 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		ACAED544222BAFE900F5422D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		ACAED546222BAFF700F5422D /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		ACAED54B222BBB1800F5422D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = UICollectionView/View/MenuTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		ACAED54D222BC31E00F5422D /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +69,44 @@
 			isa = PBXGroup;
 			children = (
 				AC265F69221C7A3400007DB7 /* AppDelegate.swift */,
-				AC265F6B221C7A3400007DB7 /* ViewController.swift */,
-				AC265F7B221C7C8E00007DB7 /* GalleryCollectionView.swift */,
-				AC265F7F221C7EA300007DB7 /* GalleryCollectionViewCell.swift */,
-				AC265F7D221C7CBB00007DB7 /* SushiModel.swift */,
+				ACAED548222BB03E00F5422D /* Controllers */,
+				ACAED54A222BB04E00F5422D /* View */,
+				ACAED549222BB04800F5422D /* Model */,
 				AC265F6D221C7A3400007DB7 /* Main.storyboard */,
 				AC265F70221C7A3600007DB7 /* Assets.xcassets */,
 				AC265F72221C7A3600007DB7 /* LaunchScreen.storyboard */,
 				AC265F75221C7A3600007DB7 /* Info.plist */,
 			);
 			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		ACAED548222BB03E00F5422D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACAED546222BAFF700F5422D /* ContainerViewController.swift */,
+				AC265F7B221C7C8E00007DB7 /* GalleryCollectionView.swift */,
+				AC265F6B221C7A3400007DB7 /* FoodViewController.swift */,
+				ACAED544222BAFE900F5422D /* MenuViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACAED549222BB04800F5422D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC265F7D221C7CBB00007DB7 /* SushiModel.swift */,
+				ACAED54D222BC31E00F5422D /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACAED54A222BB04E00F5422D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC265F7F221C7EA300007DB7 /* GalleryCollectionViewCell.swift */,
+				ACAED54B222BBB1800F5422D /* MenuTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +181,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC265F7E221C7CBB00007DB7 /* SushiModel.swift in Sources */,
+				ACAED545222BAFE900F5422D /* MenuViewController.swift in Sources */,
+				ACAED54E222BC31E00F5422D /* MenuModel.swift in Sources */,
+				ACAED54C222BBB1800F5422D /* MenuTableViewCell.swift in Sources */,
+				ACAED547222BAFF700F5422D /* ContainerViewController.swift in Sources */,
 				AC265F80221C7EA300007DB7 /* GalleryCollectionViewCell.swift in Sources */,
-				AC265F6C221C7A3400007DB7 /* ViewController.swift in Sources */,
+				AC265F6C221C7A3400007DB7 /* FoodViewController.swift in Sources */,
 				AC265F7C221C7C8E00007DB7 /* GalleryCollectionView.swift in Sources */,
 				AC265F6A221C7A3400007DB7 /* AppDelegate.swift in Sources */,
 			);
